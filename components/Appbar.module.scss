@@ -1,0 +1,48 @@
+
+$primary:#cf90ee;
+$orange:#ff7f50;
+$gray:#C0C0C0;
+$lightgray:#eeeeee;
+$pink:#ff6666;
+$lightblack:#666161;
+$lightwhite:#F5F5DC;
+
+  
+   
+
+
+
+  
+
+.nav{
+    background-color:white;
+}
+.right{
+    position:absolute;
+    right:30px;
+    font-weight: 600;
+}
+.logo a{
+     color: $lightblack;
+    font-weight: 700;
+     font-size: 30px;
+
+}
+
+.toolbar{
+    position: relative;
+    padding: 20px 20px;
+    h3{
+        font-size: 23px;
+    }
+}
+.logbtn{
+    font-size: 20px !important;
+    color: white;
+    font-family: sans-serif !important;
+    cursor: pointer;
+}
+.mobmenu{
+    padding: 20px 30px !important;
+    color:"black"
+}

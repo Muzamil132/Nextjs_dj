@@ -1,0 +1,111 @@
+@media (min-width:500px){
+    .image{
+        width:100%;
+        border-radius: 30px;
+    }
+
+    
+    .cont{
+        padding: 10px 10px;
+        background-color: white;
+        max-width: 700px;
+        border-radius: 30px;
+        margin-left: 40px;
+    }
+}
+@media (max-width:500px){
+    .image{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .cont{
+        padding: 10px 15px;
+    }
+}
+$primary:#8a2be2;
+$orange:#ff7f50;
+$gray:#C0C0C0;
+$lightgray:#eeeeee;
+$pink:#ff6666;
+$lightblack:#666161;
+$lightwhite:#F5F5DC;
+
+
+.wrapper{
+     
+ 
+
+
+    background-color:rgb(248, 245, 245);
+    z-index: -100;
+    // margin-top: -20px;
+    padding-top:50px;
+    padding-bottom: 40px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+ 
+        
+
+  
+    
+    
+
+}
+.cont{
+
+    @media (max-width:600px){
+        min-width: 300px;
+   }
+      
+   @media (min-width:600px){
+       min-width: 600px;
+  }
+
+
+
+    a{
+        color:$orange;
+        font-size: 19px;
+        font-weight: 600;
+    }
+}
+
+.btnbox{
+    @media (max-width:600px){
+        margin-left: 8px;
+    }
+    @media (min-width:600px){
+        margin-left: 40px;
+    }
+    .btn1{
+        background-color: $orange;
+        margin:10px;
+        color:$lightwhite;
+    }
+    .btn2{
+        background-color: $primary;
+        margin:10px;
+        color:$lightwhite;
+    }
+
+
+
+}
+
+.paper{
+    margin-top: 10px;
+    padding: 20px 20px;
+    max-height:70px;
+}
+.container{
+    min-height: 100vh;
+
+}
+
+.papercont{
+    display: flex;
+    justify-content: space-between;
+  }

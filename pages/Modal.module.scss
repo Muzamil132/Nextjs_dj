@@ -1,0 +1,48 @@
+.modal {
+    background: white;
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    padding: 20px;
+    z-index: 100;
+  }
+  $primary:#8a2be2;
+$orange:#ff7f50;
+$gray:#C0C0C0;
+$lightgray:#eeeeee;
+$pink:#ff6666;
+$lightblack:#666161;
+$lightwhite:#F5F5DC;
+  
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+  }
+  
+  .body {
+    padding-top: 10px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+  
+  }
+  .btn1{
+    background-color: $orange;
+    margin:10px;
+    color:$lightwhite;
+}
+.btn2{
+    background-color: $primary;
+    margin:10px;
+    color:$lightwhite;
+}

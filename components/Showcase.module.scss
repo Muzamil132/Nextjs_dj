@@ -1,0 +1,53 @@
+
+
+.showcase{
+    height: 300px;
+    width: 100%;
+    background: rgb(21, 190, 21) url('../components/images/showcase.jpg') no-repeat center center;
+    position: relative;
+    // margin-top: -10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    h1{
+        font-size: 40px;
+        margin-bottom:5px;
+    }
+    h2{
+        font-size: 30px;
+    }
+   
+}
+
+@media (max-width:500px){
+    .showcase {
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 23px;
+        }
+      
+
+    }
+
+   
+}
+.showcase::after{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.7);
+ 
+}
+.showcase *{
+    z-index: 1;
+}
