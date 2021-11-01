@@ -1,14 +1,15 @@
 import { createContext, useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { toast } from 'react-toastify'
-const NEXT_URL="http://localhost:3000"
+// const NEXT_URL="http://localhost:3000"
 
 const AuthContext = createContext()
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null)
   const [error, setError] = useState(null)
-
+   const NEXT_URL = process.env.NEXT_PUBLIC_FRONTEND_URL || 'http://localhost:3000'
+                                     
   const router = useRouter()
 
   useEffect(() => checkUserLoggedIn(), [])
