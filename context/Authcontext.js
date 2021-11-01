@@ -8,7 +8,7 @@ const AuthContext = createContext()
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null)
   const [error, setError] = useState(null)
-   const NEXT_URL = process.env.NEXT_PUBLIC_FRONTEND_URL || 'http://localhost:3000'
+   const NEXT_URL =  'https://nextjs-dj.vercel.app/'
                                      
   const router = useRouter()
 
