@@ -10,8 +10,9 @@ $lightwhite:#F5F5DC;
 
 
 .wrapper{
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .loginbox{
 
